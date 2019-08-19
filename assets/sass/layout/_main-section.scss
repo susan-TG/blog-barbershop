@@ -1,0 +1,18 @@
+.main-section {
+    height: 560px;
+    width: 100vw;
+    background-image: url(../images/post-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    color: $white;
+
+}
+h1 {
+    padding-top: 140px;
+    font-family: $roboto;
+    font-size: $xx-large;
+    font-weight: $font-light;
+    
+}

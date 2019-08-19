@@ -1,0 +1,30 @@
+.pagination-section {
+    background-color: $platinum;
+    height: 60px;
+    padding: 60px 0 90px 0;
+    margin: 0;
+}
+
+.page-item:last-child .page-link {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.page-item:first-child .page-link {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+}
+.black-text {
+    color: $eerie-black;
+}
+.active {
+    background-color: $nickel;
+}
+.page-item.active .page-link {
+    z-index: 1;
+    color: $white;
+    background-color: $nickel;
+    border-color: $nickel;
+   
+}

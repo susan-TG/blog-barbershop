@@ -1,0 +1,29 @@
+/*Boton contacto*/
+.text__blog-butons .btn{
+    background-color: $raisin-black;
+    border-radius: 30px;
+    font-size: $x-small;
+    color: $white;
+
+    &:hover {
+        color: $raisin-black;
+        background-color: $platinum;
+    }
+    
+    .button_positive {
+
+    }
+}
+
+
+/*Boton pagination*/
+.button {
+    color: $white
+    border-radius 30px;
+    border: $raisin-black;
+
+}
+
+.button_default {}
+
+.button_positive {}
