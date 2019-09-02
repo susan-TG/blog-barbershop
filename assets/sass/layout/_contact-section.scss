@@ -1,20 +1,46 @@
 
-.contact__social {
-    display: inline-block;
+ //Normal Size Image
+ .img-thumbnail {
+        width: 240px;
+        margin: 0 auto;
+        .margen {
+            margin-top: -20px;
+        }
+    }
+
+//Small Size Image
+@media (min-width: 576px) { 
+
+    ..img-thumbnail {
+        width: 120px;
+        margin: 0 auto;
+    
+    }
 }
- a {
+
+ //State texts
+.contact__social, .contact__web {
     color: $spanish-pink;
+    font-family: $roboto;
+    font-size: $large;
+    font-weight: $font-light;
+
+    &:active {
+        color: $platinum;
+    }
+    &:hover {
+        color: $raisin-black;
+    }
 }
-.contact__web {
-    display: inline-block;
+p {
+    color: $raisin-black;
+    font-family: $roboto;
+    font-size: $small;
+    font-weight: $font-regular;
+
 }
-.contact__img {
-    width: 100%;
-}
-.contact__image {
-    width: 200px;
-    margin: 0 auto;
-}
-.margen {
-    margin-top: -20px;
+h3 {
+    font-family: $playfair;
+    font-size: $x-large;
+    font-weight: $font-black-italic;
 }

@@ -1,0 +1,7 @@
+@mixin cuadrado {
+
+}
+
+.cuadrado-1 {
+    @include cuadrado;
+}

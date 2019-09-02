@@ -1,5 +1,5 @@
-.main-section {
-    height: 560px;
+.main-section{
+    height: 600px;
     width: 100vw;
     background-image: url(../images/post-image.jpg);
     background-repeat: no-repeat;
@@ -7,12 +7,30 @@
     position: relative;
     background-position: center;
     color: $white;
-
+    text-align: center;
 }
-h1 {
+.main-section {
+    margin: 0;
+}
+
+.main-section__title {
     padding-top: 140px;
-    font-family: $roboto;
+    font-family: $playfair;
     font-size: $xx-large;
     font-weight: $font-light;
+}
+
+i {
+    color: $white;
     
+
+}
+
+@media (min-width: 1200px) { 
+
+    i {
+        padding-top: 3em;
+
+    
+    }
 }

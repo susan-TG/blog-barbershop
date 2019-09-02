@@ -9,12 +9,10 @@
 
 @import 'layout/header';
 @import 'layout/main-section';
-@import 'layout/text-section';
-@import 'layout/pagination-section';
+@import 'layout/article-section';
 @import 'layout/contact-section';
+@import 'layout/pagination-section';
 @import 'layout/footer';
 
 @import 'components/buttons';
-
-
-
+@import 'components/pagination';
